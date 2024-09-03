@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 10px;
+    letter-spacing: 0.2em; word-spacing: 0.2em;
+    color: rgb(73, 41, 0);
+    
+}
+body{
+    background: rgb(133,127,35);
+    background: radial-gradient(circle, rgba(133,127,35,1) 0%, rgba(212,190,152,1) 78%, rgba(66,91,67,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    
+}
+header{
+    position: fixed;
+    top: 0%; left: 0%; right: 0;
+    background: rgb(255, 255, 255);
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .5);
+}
+header.logo{
+    color: rgb(60, 77, 44);
+    font-weight: bolder;
+    
+}
+header .navbar a{
+    font-size: 2rem;
+    padding: 0 1.5rem;
+    color: rgb(32, 19, 0);
+}
+header .navbar a:hover{
+    color: var(--pink);
+}
+header .icons a{
+    font-size: 3rem;
+    color: aqua;
+    margin-left: 2rem;;
+}
+header #toggler{
+    display: none;
+}
+
+
+header .fa-bars{
+    font-size: 10rem;
+    color: blueviolet;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    cursor: pointer;
+    border: .1rem solid rgba(0, 0, 0, .3);
+    display: none;
+
+}
+.footer {
+    background-color: #ffffff;
+    color: #3d1e1e;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container {
+    
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 20px;
+    padding: 10px;
+    top: 80%;
+    left: 50%;
+    
+}
+.logo{
+    font-size: 20px;
+}
+
+.box {
+    width: 45%;
+    text-align: center;
+    
+}
+
+.box img {
+    max-width: 100%;
+    border-radius: 8px;
+   
+}
+
+.box h2 {
+    font-size: 2rem;
+    color:bisque;
+    padding: 1rem 0;
+    line-height: 2;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.box h2 span {
+    color: white;
+
+}
+
+.box p {
+    font-family: "Margarine", sans-serif;
+    font-size: 16px;
+    color: #3a2020;
+    margin: 10px 0;
+}
+
+.box button {
+    background-color: rgb(17, 53, 13);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.box button:hover{
+    background-color: rgb(7, 24, 7);
+    transition: 0.5s;
+    padding: 10px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #ddd;
+    height:100%;
+}
